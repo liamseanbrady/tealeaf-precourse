@@ -56,6 +56,8 @@ success_lambda = -> { "This is a tweet" }
 error_lambda = -> { raise 'Auth Error' }
 my_tweet.post(success_lambda, error_lambda)
 
+TODO: Do more on this, inlcuding examples from Peter Cooper video
+
 
 
 
